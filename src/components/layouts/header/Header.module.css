@@ -1,0 +1,27 @@
+.container {
+  margin-left: 22%;
+  padding-top: 20px;
+}
+.container .css {
+  background-color: transparent;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: var(--secondary);
+}
+.container .cssScroll {
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  top: 0.75rem;
+  box-shadow: rgb(255 255 255 / 90%) 0rem 0rem 0.0625rem 0.0625rem inset,
+    rgb(0 0 0 / 5%) 0rem 1.25rem 1.6875rem 0rem;
+  border-radius: 20px;
+  backdrop-filter: saturate(200%) blur(1.875rem);
+  background-color: transparent;
+  color: var(--dark);
+  z-index: 1100;
+  padding: 0.5rem 0px;
+}
+.container .dashBox {
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'space-between';
+  width: '100%';
+}

@@ -1,0 +1,111 @@
+.wrapper {
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: visible !important;
+  overflow-wrap: break-word;
+  background-color: var(--light);
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.75rem !important;
+  box-shadow: rgb(0 0 0 / 10%) 0rem 0.25rem 0.375rem -0.0625rem,
+    rgb(0 0 0 / 6%) 0rem 0.125rem 0.25rem -0.0625rem !important;
+}
+.wrapper .upperBox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  opacity: 1;
+  background: transparent;
+}
+.wrapper .smallBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  opacity: 1;
+  color: var(--white);
+  border-radius: 0.75rem;
+  margin-top: -24px;
+  box-shadow: rgb(0 0 0 / 14%) 0rem 0.25rem 1.25rem 0rem,
+    rgb(64 64 64 / 40%) 0rem 0.4375rem 0.625rem -0.3125rem;
+}
+
+.wrapper .upperText {
+  margin: 0px;
+
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: 0.02857em;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: var(--secondary);
+  font-weight: var(--fontWeightLight);
+}
+
+.wrapper .count {
+  margin: 0px;
+  font-size: 1.5rem;
+  line-height: 1.375;
+
+  font-weight: var(--fontWeightBold);
+  letter-spacing: 0.00735em;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.wrapper .downTypo {
+  margin: 0px;
+
+  font-size: 0.875rem;
+  font-weight: var(--fontWeightLight);
+  line-height: 1.5;
+  letter-spacing: 0.02857em;
+  display: flex;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.wrapper .downPercentage {
+  color: var(--success);
+  margin: 0px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: 0.02857em;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  font-weight: var(--fontWeightBold);
+}
+
+.wrapper .divider {
+  flex-shrink: 0;
+  border-top: 0px solid rgba(0, 0, 0, 0.12);
+  border-right: 0px solid rgba(0, 0, 0, 0.12);
+  border-left: 0px solid rgba(0, 0, 0, 0.12);
+  background-color: transparent;
+  height: 0.0625rem;
+  margin: 1rem 0px;
+  border-bottom: none;
+  opacity: 0.25;
+  background-image: linear-gradient(
+    to right,
+    rgba(52, 71, 103, 0),
+    rgba(52, 71, 103, 0.4),
+    rgba(52, 71, 103, 0)
+  ) !important;
+}

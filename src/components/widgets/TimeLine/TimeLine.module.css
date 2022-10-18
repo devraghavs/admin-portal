@@ -1,0 +1,40 @@
+.wrapper::before {
+  flex: 0 !important;
+  padding: 6px 4px !important;
+}
+
+.wrapper .title {
+  margin: 0px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: 0.02857em;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: var(--fontWeightMedium);
+}
+
+.wrapper .dateTime {
+  margin: 0px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: 0.03333em;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.wrapper .dot {
+  margin: 0px;
+}
+
+.wrapper .connector {
+  opacity: 0.5;
+}
